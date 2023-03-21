@@ -7,7 +7,6 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -38,4 +37,17 @@ footer {
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 5%;
+  padding: 20px;
+  background-color: #4ECCA3;
+  border-radius: 10px;
+  border: 1px solid #1f1f1f;
+  font-family: 'Poppins', sans-serif;
 }
