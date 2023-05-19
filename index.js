@@ -18,14 +18,14 @@ function start() {
   // If player 1 wins
   if (randomNumber1 > randomNumber2) {
     document.querySelector("h1").innerHTML =
-      "<span>🎌</span>Player 1 Wins!<span>🎌</span>";
+      "<span>🎌</span> Player 1 Wins! <span>🎌</span>";
   } else if (randomNumber1 < randomNumber2) {
     // If player 2 wins
     document.querySelector("h1").innerHTML =
-      "<span>🎌</span>Player 2 Wins!<span>🎌</span>"; // Change the text of the h1
+      "<span>🎌</span> Player 2 Wins! <span>🎌</span>"; // Change the text of the h1
   } else {
     // If it's a tie
     document.querySelector("h1").innerHTML =
-      "<span>🎌</span>Draw!<span>🎌</span>";
+      "<span>🎌</span> Draw! <span>🎌</span>";
   }
 }
